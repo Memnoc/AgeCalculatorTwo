@@ -18,6 +18,6 @@ public class CalculateActivity extends AppCompatActivity {
 
         User user = getIntent().getParcelableExtra("userData");
         ageResult.setText(String.format("%s %s", user.getUserBirthday(), user.getCurrentDate()));
-        
+
     }
 }
