@@ -1,4 +1,4 @@
-package com.smartdroidesign.agecalculatortwo;
+package com.smartdroidesign.agecalculatortwo.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.smartdroidesign.agecalculatortwo.R;
+import com.smartdroidesign.agecalculatortwo.model.User;
+import com.smartdroidesign.agecalculatortwo.presenter.CalculateActivity;
 
 public class InputActivity extends AppCompatActivity {
 
@@ -18,7 +22,6 @@ public class InputActivity extends AppCompatActivity {
 
     private String birthdayDate;
     private String currentDate;
-
 
 
     @Override

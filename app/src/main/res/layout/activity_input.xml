@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InputActivity">
+    tools:context=".ui.InputActivity">
 
     <TextView
         android:id="@+id/header_txt_input"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Enter your birthday date:"
+        android:text="@string/enter_your_birthday_date"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/birthday_txt_input"
@@ -27,7 +27,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
-        android:hint='"M/dd/yyyy"'
+        android:hint="@string/mm_dd_yyyy"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/header_two_txt_input"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Enter the current date:"
+        android:text="@string/enter_the_current_date"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/current_txt_input"
@@ -55,7 +55,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
-        android:hint='"M/dd/yyyy"'
+        android:hint="@string/mm_dd_yyyy"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +70,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Calculate"
+        android:text="@string/calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

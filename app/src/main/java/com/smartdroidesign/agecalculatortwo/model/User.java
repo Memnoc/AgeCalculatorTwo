@@ -1,4 +1,4 @@
-package com.smartdroidesign.agecalculatortwo;
+package com.smartdroidesign.agecalculatortwo.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

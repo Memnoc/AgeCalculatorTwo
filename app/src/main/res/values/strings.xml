@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AgeCalculatorTwo</string>
+    <string name="enter_your_birthday_date">Enter your birthday date:</string>
+    <string name="enter_the_current_date">Enter the current date:</string>
+    <string name="mm_dd_yyyy">MM/dd/yyyy</string>
+    <string name="calculate">Calculate</string>
+    <string name="your_age_is">Your age is:</string>
 </resources>
